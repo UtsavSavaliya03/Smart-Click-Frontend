@@ -1,0 +1,47 @@
+.order-wrapper {
+    background-color: #c3b9f01f;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+.order-wrapper:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.order-img {
+    border-radius: 8px;
+    height: 200px;
+    width: 200px;
+}
+
+.muted-line {
+    border-bottom: 3px solid rgb(194, 194, 194);
+}
+
+.success-line {
+    border-bottom: 4px solid green;
+    width: 12%;
+    position: absolute;
+}
+
+.cancel-btn,
+.view-more-btn {
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    color: rgb(137, 135, 135);
+}
+
+.cancel-btn:hover {
+    color: rgb(255, 75, 75);
+}
+.view-more-btn:hover {
+    color: #aea8ca;
+}
+.vl-hr {
+    border-left: 1px solid rgb(163, 161, 161);
+    height: 200px;
+    position: absolute;
+}

@@ -1,0 +1,14 @@
+.service-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.service-card {
+    width: 100px;
+}
+.service-card-wrapper img {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

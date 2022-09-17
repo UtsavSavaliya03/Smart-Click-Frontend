@@ -1,0 +1,50 @@
+.cart-wrapper {
+    background-color: #c3b9f01f;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+.cart-wrapper:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.cart-img {
+    border-radius: 8px;
+    height: 200px;
+    width: 200px;
+}
+.break-line-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.btn-quantity {
+    background-color: #aea8ca;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+.btn-quantity:hover {   
+    background-color: #6c6b8b;
+    color: white;
+    transition: all 500ms ease;
+}
+.btn-quantity:disabled {
+    cursor: not-allowed;
+}
+.quantity-badge {
+    padding: 8px 10px;
+    border-radius: 50%;
+    margin: 0px 15px;
+    border: 2px solid #aea8ca;
+}
+.btn-remove {
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    color: #6c6b8b;
+}
+.btn-remove:hover {
+    color: rgb(255, 83, 83);
+}

@@ -1,0 +1,45 @@
+.footer-wrapper {
+    background-color: #c3b9f01f;
+}
+
+.footer-wrapper li {
+    list-style-type: none;
+}
+
+.footer-wrapper li a {
+    text-decoration: none;
+}
+
+.footer-wrapper li a:hover {
+    color: black !important;
+}
+
+.social-icon a {
+    color: grey;
+}
+
+.social-icon .fa-instagram:hover {
+    cursor: pointer;
+    color: rgb(242, 100, 100);
+}
+
+.social-icon .fa-square-facebook:hover {
+    cursor: pointer;
+    color: rgb(88, 88, 255);
+}
+
+.social-icon .fa-square-twitter:hover,
+.social-icon .fa-linkedin:hover {
+    cursor: pointer;
+    color: rgb(59, 89, 255);
+}
+
+.social-icon .fa-youtube:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.social-icon .fa-google:hover {
+    cursor: pointer;
+    color: rgb(247, 67, 67);
+}

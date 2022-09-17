@@ -1,0 +1,17 @@
+.description-wrapper {
+    border: 1px solid rgb(171, 171, 171);
+}
+.description-wrapper li {
+    list-style-type: none;
+    padding: 10px;
+}
+.description-wrapper .list-title {
+    font-weight: 500;
+}
+.description-wrapper li:nth-child(odd) {
+    background-color: #c3b9f01f;
+}
+.description-wrapper li:nth-child(even) {
+    border-top: 1px solid rgb(171, 171, 171);
+    border-bottom: 1px solid rgb(171, 171, 171);
+}

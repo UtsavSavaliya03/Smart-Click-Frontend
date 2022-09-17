@@ -1,0 +1,72 @@
+.nav-bar {
+    background-color: #aea8ca;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.cart-icon {
+    cursor: pointer;
+}
+.cart-badge {
+    position: absolute;
+    right: -10px;
+    bottom: 15px;
+    background-color: rgb(255, 77, 77);
+}
+.sidebar-button {
+    cursor: pointer;
+}
+.user-icon-skeleton-container {
+    height: 40px;
+}
+.user-icon-skeleton {
+    top: -4px;
+}
+
+/* ------------------ Dropdown ----------------- */
+
+.avatar-wrapper {
+    position: relative;
+}
+.avatar{
+    cursor: pointer;
+}
+.avatar-wrapper:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    z-index: 10;
+    border-radius: 10px;
+    position: absolute !important;
+    right: 0%;
+    width: 350px;
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+    padding-bottom: 10px;
+}
+
+.dropdown ul,
+.dropdown li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li .dropdown-button {
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: none;
+    background-color: transparent;
+    margin-top: 5px;
+    color: #505050;
+}
+li .dropdown-button:hover {
+    background-color: #f8f6fd;
+    color: black;
+}

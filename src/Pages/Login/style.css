@@ -1,0 +1,46 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.login-main {
+    animation: fadeIn 1.5s;
+    height: calc(100vh - 48px);
+    padding: 10px 150px;
+}
+.login-wrapper {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.login-bg {
+    background-image: url(../../Assets/login.jpg);
+    background-size: cover;
+}
+.login-form {
+    background-color: white;
+}
+.login-title, 
+.form-label {
+    color: #6c6b8b;
+}
+.btn-basic {
+    background-color: #aea8ca;
+    color: white;
+}
+.btn-basic:hover {
+    background-color: #6c6b8b;
+    color: white;
+}
+.input-field {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #aea8ca;
+    border-radius: 5px;
+}
+.input-field:focus {
+    outline: 1px solid #aea8ca;
+}
+.signup-link {
+    color: #6c6b8b;
+}
+.signup-link:hover {
+    color: #4f4e67;
+}

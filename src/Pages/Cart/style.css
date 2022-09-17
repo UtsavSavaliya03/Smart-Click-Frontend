@@ -1,0 +1,26 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.cart-main {
+    animation: fadeIn 1.5s;
+}
+
+.empty-cart-wrapper img {
+    width: auto;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.empty-cart-wrapper a {
+    color: #aea8ca;
+    text-decoration: none;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.card-wrapper {
+    width: 250px;
+    background-color: #c3b9f01f;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+.card-wrapper:hover {
+    box-shadow:rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px
+}
+.card-img {
+    border-radius: 8px;
+    height: 200px;
+    width: 200px;
+}
+.break-line-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;   
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
